@@ -44,7 +44,7 @@ function App() {
               <span className='text-neutral-500'>You can find more of my work here</span>
 
               <a
-                href="https://youtube.com/riyamustare"
+                href="https://www.youtube.com/@riyamustare"
                 target="_blank"
                 rel="noopener noreferrer"
                 className='flex flex-center space-x-2 text-neutral-200 cursor-pointer hover:text-t-accent'
