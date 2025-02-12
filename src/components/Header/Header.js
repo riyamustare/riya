@@ -15,7 +15,7 @@ function Header() {
       </h1>
 
       <p className='text-t-secondary pt-6 sm:leading-7'>
-        A developer passionate about building real-world solutions. Always curious, a fast learner, and take ownership to get things done.
+      A software developer passionate about product design, user experience and growth. Always curious, quick to learn, and takes ownership to get things done!
       </p>
 
       <div className='flex justify-between flex-center'>
@@ -52,7 +52,7 @@ function Header() {
         </div>
 
         <a
-          href="https://drive.google.com/uc?export=download&id=1hAz9bdwWu5Iy8eQSfK3Rf_01r_xVHN6i"
+          href="https://drive.google.com/uc?export=download&id=1BeboVTLccyT5afDVLz0yAtIo5apugJYq"
           className='flex pt-4 space-x-2 text-t-secondary-dark cursor-pointer hover:text-t-accent'
           download
         >

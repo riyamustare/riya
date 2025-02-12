@@ -1,113 +1,103 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faDatabase } from '@fortawesome/free-solid-svg-icons'
-import { 
-    faPython, 
-    faDocker, 
-    faAws,
-    faJava,
-} from '@fortawesome/free-brands-svg-icons'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode, faChartLine, faUserFriends, faComments } from '@fortawesome/free-solid-svg-icons';
+import { faJira, faAws, faDocker, faFigma, faGit } from '@fortawesome/free-brands-svg-icons';
 
-function Skill() {
+function Skills() {
     return (
         <div className='w-full h-full mt-8'>
-            <h1 className="text-white text-xl">My Skills</h1>
-
-            {/* this is for subsection */}
+            <h1 className="text-white text-xl">Product Management Skills</h1>
             <div className="ml-4">
-
-                {/* languague subsections and other subsection following that */}
+                
+                {/* Technical Background */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Languages</h1>
-                    <div className='flex flex-row flex-center flex-wrap gap-2 mt-2'>
+                    <h1 className="text-white text-l mt-4">Technical Background</h1>
+                    <div className='flex flex-row flex-wrap gap-2 mt-2'>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faPython} />
-                            <span className="text-base">Python</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDatabase} />
-                            <span className="text-base">SQL</span>
+                            <FontAwesomeIcon width={20} height={20} icon={faCode} />
+                            <span className="text-base">Software Development</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faJava} />
-                            <span className="text-base">Java</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Machine Learning</span>
                         </div>
                     </div>
                 </div>
 
-
-                {/* Backend subsections and other subsection following that */}
+                {/* Analytical Thinking */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Backend and Database</h1>
-                    <div className='flex flex-row flex-center flex-wrap gap-2 mt-2'>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
+                    <h1 className="text-white text-l mt-4">Analytical Thinking</h1>
+                    <div className='flex flex-row flex-wrap gap-2 mt-2'>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faChartLine} />
+                            <span className="text-base">Data-Driven Decision Making</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Django</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Flask</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDatabase} />
-                            <span className="text-base">Redis</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDatabase} />
-                            <span className="text-base">PostgreSQL</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDatabase} />
-                            <span className="text-base">MongoDB</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDatabase} />
-                            <span className="text-base">MySQL</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">FastAPI</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">REST API</span>
+                            <span className="text-base">Prioritization & Problem Solving</span>
                         </div>
                     </div>
                 </div>
 
-                {/* Devops subsections and other subsection following that */}
+                {/* User-Centric Mindset */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Devops</h1>
-                    <div className='flex flex-row flex-center flex-wrap gap-2 mt-2'>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faAws} />
-                            <span className="text-base">Aws</span>
+                    <h1 className="text-white text-l mt-4">User-Centric Mindset</h1>
+                    <div className='flex flex-row flex-wrap gap-2 mt-2'>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faUserFriends} />
+                            <span className="text-base">User Research & Analysis</span>
                         </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDocker} />
-                            <span className="text-base">Docker</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Kubernetes</span>
+                            <span className="text-base">Solving Real User Problems</span>
                         </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
+                    </div>
+                </div>
+
+                {/* Communication Skills */}
+                <div className="flex flex-col">
+                    <h1 className="text-white text-l mt-4">Communication</h1>
+                    <div className='flex flex-row flex-wrap gap-2 mt-2'>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faComments} />
+                            <span className="text-base">Clear & Concise Messaging</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Cross-Functional Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Tools & Technologies */}
+                <div className="flex flex-col">
+                    <h1 className="text-white text-l mt-4">Tools & Technologies</h1>
+                    <div className='flex flex-row flex-wrap gap-2 mt-2'>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faJira} />
+                            <span className="text-base">Jira</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faFigma} />
+                            <span className="text-base">Figma</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faGit} />
                             <span className="text-base">Git</span>
                         </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm space-x-1 text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">CI/CD (Github Actions)</span>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faAws} />
+                            <span className="text-base">AWS</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} icon={faDocker} />
+                            <span className="text-base">Docker</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Skill
-
-
-
-
+export default Skills;

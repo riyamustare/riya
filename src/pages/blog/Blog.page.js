@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 function Blog() {
   const blogPosts = [
-    // {
-    //   id: 'blog1',
-    //   title: 'Understanding WebSockets in Real-Time Applications',
-    //   description: 'Learn how WebSockets enable real-time communication and how you can implement them in your projects.',
-    // },
-    // {
-    //   id: 'blog2',
-    //   title: 'Building a Scalable Backend with Django and PostgreSQL',
-    //   description: 'A guide to structuring and optimizing a Django backend with PostgreSQL for high-performance applications.',
-    // },
+    {
+      id: 'blog1',
+      title: 'Building Products That Users Love!',
+      description: 'Insights from Sam Altman’s Startup Playbook.',
+    },
+    {
+      id: 'blog2',
+      title: 'Deepseek R1 for Everyone!',
+      description: 'A guide into how deepseek r1 works behind the scene.',
+    },
     // {
     //   id: 'blog3',
     //   title: 'Getting Started with Microservices Architecture',
@@ -22,7 +22,7 @@ function Blog() {
 
   return (
     <>
-      <h1 className="text-white text-xl">Blogs (soon)</h1>
+      <h1 className="text-white text-xl">Blogs</h1>
 
       <div className='grid grid-cols-1 gap-4 mt-6 mb-6'>
         {blogPosts.map((post) => (

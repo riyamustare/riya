@@ -44,12 +44,12 @@ function App() {
               <span className='text-neutral-500'>You can find more of my work here</span>
 
               <a
-                href="https://twitter.com/riyamustare"
+                href="https://youtube.com/riyamustare"
                 target="_blank"
                 rel="noopener noreferrer"
                 className='flex flex-center space-x-2 text-neutral-200 cursor-pointer hover:text-t-accent'
               >
-                <span>Twitter</span>
+                <span>Youtube</span>
                 <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
               </a>
 
@@ -60,16 +60,6 @@ function App() {
                 className='flex flex-center space-x-2 text-neutral-200 cursor-pointer hover:text-t-accent'
               >
                 <span>LinkedIn</span>
-                <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-              </a>
-
-              <a
-                href="https://github.com/riyamustare"
-                target="_blank"
-                rel="noopener noreferrer"
-                className='flex flex-center space-x-2 text-neutral-200 cursor-pointer hover:text-t-accent'
-              >
-                <span>GitHub</span>
                 <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
               </a>
             </div>
