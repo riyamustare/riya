@@ -80,14 +80,10 @@ function Project() {
               <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
             </a>
           </div>
-          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
-            a real-time chat application built using Django Channels, WebSockets, and Redis. The application enables users to send and receive messages instantly, providing a seamless chat experience.          </p>
-          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">Django</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">WebSockets</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">Redis</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">Postgres</div>
-          </div>
+          <p className='text-neutral-500 pt-1 text-sm sm:leading-5'>
+          Built a real-time chat platform with asynchronous messaging, enhancing engagement with instant
+          messaging and live UI updates.
+          </p>
         </div>
 
 
@@ -96,40 +92,16 @@ function Project() {
         <div className='bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
           <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
             <a href="https://github.com/riyamustare/video-to-mp3" target="_blank" rel="noopener noreferrer">
-              <span className="pr-2" >video to mp3</span>
+              <span className="pr-2" >Scalable Video Conversion with Microservices</span>
               <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
             </a>
           </div>
-          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
-          This project demonstrates a microservices architecture for building a distributed application that converts video files to MP3 files. The application integrates several technologies, including Python, RabbitMQ, MongoDB, Docker, Kubernetes, and MySQL.
+          <p className='text-neutral-500 pt-1 text-sm sm:leading-5'>
+          Developed a distributed video-to-MP3 conversion system, improving eﬃciency with asynchronous job
+processing.
           </p>
-          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">NODE</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">EXPRESS</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">MONGO DB</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">REST APIs</div>
-          </div>
         </div>
 
-
-
-
-        {/* nand 2 tetris Project */}
-        <div className='relative bg-secondary-bg p-6 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
-          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
-            <a href="https://github.com/riyamustare/houseprice-prediction" target="_blank" rel="noopener noreferrer">
-              <span className="pr-2">Value my House</span>
-              <FontAwesomeIcon width={12} height={12} icon={faArrowUpRightFromSquare} />
-            </a>
-          </div>
-          <p className='text-neutral-500 pt-2 text-sm sm:leading-7'>
-          This is a Flask-based web application that predicts house prices based on user inputs. The application uses a pre-trained regression model and a scaling model to provide predictions. The user can input various features of a house, and the application will return the predicted price.
-          </p>
-          <div className='flex flex-row flex-center flex-wrap gap-2 mt-4'>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">Flask</div>
-            <div className="rounded py-2 px-1 border-stone-400 border text-xs text-t-secondary-dark">Linear Regression</div>
-          </div>
-        </div>
 
       </div>
     </>
