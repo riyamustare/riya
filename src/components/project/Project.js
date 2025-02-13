@@ -10,7 +10,7 @@ function Project() {
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 mb-6'>
 
         
-        {/* Real Time Chat */}
+        {/* INDmoney */}
         <a href="https://drive.google.com/file/d/1sUsEaEtaozJ9iT6k5MLX1EKnX4Cwp5qt/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="pr-2">
         <div className='relative bg-secondary-bg p-3 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
           <img src="INDmoney.png" alt="INDmoney Logo" className="h-25 mb-2 mx-auto rounded-lg" />
@@ -19,6 +19,19 @@ function Project() {
           </div>
           <p className='text-neutral-500 text-sm sm:leading-7'>
             Turning investors into loyal traders!
+          </p>
+        </div>
+        </a>
+
+        {/* INDmoney */}
+        <a href="https://silken-attic-ef7.notion.site/SuperAGI-Targeted-Product-Improvement-199e17adfa8f8009a63dc35ae4fa7539">
+        <div className='relative bg-secondary-bg p-3 rounded-lg border border-transparent hover:border-stone-500 hover:shadow-lg transition-all ease-in duration-200'>
+          <img src="SuperAGI.png" alt="INDmoney Logo" className="h-25 mb-2 mx-auto rounded-lg" />
+          <div className='flex flex-center space-x-2 text-white cursor-pointer hover:text-t-accent'>
+              SuperAGI
+          </div>
+          <p className='text-neutral-500 text-sm sm:leading-7'>
+            Targeted Product Improvement Proposal!
           </p>
         </div>
         </a>
