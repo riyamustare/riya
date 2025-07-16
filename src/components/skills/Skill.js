@@ -1,97 +1,149 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faChartLine, faUserFriends, faComments } from '@fortawesome/free-solid-svg-icons';
-import { faJira, faAws, faDocker, faFigma, faGit } from '@fortawesome/free-brands-svg-icons';
+// import { faUserFriends, faComments } from '@fortawesome/free-solid-svg-icons';
+// import { faJira, faAws, faDocker, faFigma, faGit } from '@fortawesome/free-brands-svg-icons';
 
 function Skills() {
     return (
         <div className='w-full h-full mt-8'>
-            <h1 className="text-white text-xl">Product Management Skills</h1>
+            <h1 className="text-white text-xl">Skills</h1>
             <div className="ml-4">
                 
                 {/* Technical Background */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Technical Background</h1>
+                    <h1 className="text-white text-l mt-4">Product & Analytical</h1>
                     <div className='flex flex-row flex-wrap gap-2 mt-2'>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faCode} />
-                            <span className="text-base">Software Development</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">A/B Testing</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Machine Learning</span>
+                            <span className="text-base">Funnel Analysis</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Usage Metrics</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Churn Analysis</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Roadmapping</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">PRD Writing</span>
                         </div>
                     </div>
                 </div>
 
                 {/* Analytical Thinking */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Analytical Thinking</h1>
+                    <h1 className="text-white text-l mt-4">UX & Design</h1>
                     <div className='flex flex-row flex-wrap gap-2 mt-2'>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faChartLine} />
-                            <span className="text-base">Data-Driven Decision Making</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Figma</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Prioritization & Problem Solving</span>
+                            <span className="text-base">Wireframing</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Prototyping</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">User Journey Mapping</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Usability Testing</span>
                         </div>
                     </div>
                 </div>
 
                 {/* User-Centric Mindset */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">User-Centric Mindset</h1>
+                    <h1 className="text-white text-l mt-4">Automation & GenAI</h1>
                     <div className='flex flex-row flex-wrap gap-2 mt-2'>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faUserFriends} />
-                            <span className="text-base">User Research & Analysis</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Prompt Engineering</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Solving Real User Problems</span>
+                            <span className="text-base">Model Selection</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">API-based Automation</span>
                         </div>
                     </div>
                 </div>
 
                 {/* Communication Skills */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Communication</h1>
+                    <h1 className="text-white text-l mt-4">Engineering & Tools</h1>
                     <div className='flex flex-row flex-wrap gap-2 mt-2'>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faComments} />
-                            <span className="text-base">Clear & Concise Messaging</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Python</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
                             <FontAwesomeIcon width={20} height={20} />
-                            <span className="text-base">Cross-Functional Collaboration</span>
+                            <span className="text-base">Fast APIs</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">SQL</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Docker</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">GitHub</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">AWS/GCP</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Kubernetes</span>
+                        </div>
+                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Git</span>
                         </div>
                     </div>
                 </div>
 
                 {/* Tools & Technologies */}
                 <div className="flex flex-col">
-                    <h1 className="text-white text-l mt-4">Tools & Technologies</h1>
+                    <h1 className="text-white text-l mt-4">Tools</h1>
                     <div className='flex flex-row flex-wrap gap-2 mt-2'>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faJira} />
+                            <FontAwesomeIcon width={20} height={20} />
                             <span className="text-base">Jira</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faFigma} />
-                            <span className="text-base">Figma</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Notion</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faGit} />
-                            <span className="text-base">Git</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Dialogflow</span>
                         </div>
                         <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faAws} />
-                            <span className="text-base">AWS</span>
-                        </div>
-                        <div className="rounded py-1 px-2 border-stone-400 border text-sm text-t-secondary-dark">
-                            <FontAwesomeIcon width={20} height={20} icon={faDocker} />
-                            <span className="text-base">Docker</span>
+                            <FontAwesomeIcon width={20} height={20} />
+                            <span className="text-base">Clay</span>
                         </div>
                     </div>
                 </div>

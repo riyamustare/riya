@@ -15,9 +15,8 @@ function Header() {
       </h1>
 
       <p className='text-t-secondary pt-6 sm:leading-7'>
-      A software developer passionate about product design, user experience and growth. Always curious, quick to learn, and takes ownership to get things done!
+      Product-focused professional with a strong interest in UX design, automation, and user-centric problem solving. Experienced in building prototypes, streamlining workflows, and driving solutions through data and research. Adaptable, collaborative, and driven by ownership.
       </p>
-
       <div className='flex justify-between flex-center'>
         <div className='flex flex-center text-t-secondary-dark space-x-6 pt-4'>
           {isBlogRoute ? (
@@ -52,7 +51,7 @@ function Header() {
         </div>
 
         <a
-          href="https://drive.google.com/uc?export=download&id=1BeboVTLccyT5afDVLz0yAtIo5apugJYq"
+          href="https://drive.google.com/uc?export=download&id=1NJiA3sgDX0AuAKTN89i7z7e4AwSjPH4i"
           className='flex pt-4 space-x-2 text-t-secondary-dark cursor-pointer hover:text-t-accent'
           download
         >

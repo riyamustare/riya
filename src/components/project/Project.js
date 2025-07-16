@@ -122,8 +122,7 @@ function Project() {
             </a>
           </div>
           <p className='text-neutral-500 pt-1 text-sm sm:leading-5'>
-          Developed a distributed video-to-MP3 conversion system, improving eﬃciency with asynchronous job
-processing.
+          Developed a distributed video-to-MP3 conversion system, improving eﬃciency with asynchronous job processing.
           </p>
         </div>
 
